@@ -90,14 +90,17 @@ Python · pandas · NumPy · matplotlib · scikit-learn (KMeans, HDBSCAN) · Jup
 
 ```
 Austin_Crash_Hotspots_Project/
-├── Austin_Crash_Hotspots_Analysis.ipynb
+├── notebooks/
+│   └── Austin_Crash_Hotspots_Analysis.ipynb
 ├── data/
 │   ├── serious_crashes_kmeans.csv
 │   ├── serious_crashes_clustered.csv
 │   └── hdbscan_hotspots.csv
+│   └── serious.csv
+│   └── austin_crashes_clean.csv
 ├── images/
 └── README.md
 ```
 ## Disclaimer
 
-This is an independent portfolio project using publicly available City of Austin and NOAA data. It is not an official City of Austin analysis or a deployed forecasting system.
+This is an independent portfolio project using publicly available City of Austin data. It is not an official City of Austin analysis or a deployed cluster analysis system.
